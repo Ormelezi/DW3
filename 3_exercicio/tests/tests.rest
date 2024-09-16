@@ -1,0 +1,11 @@
+### arquivo: tests/tests.rest
+### teste de API /
+
+POST http://localhost:40000/calcular HTTP/1.1
+content-type: application/json
+
+ {
+ "num1": 5,
+ "num2": 5,
+ "operacao": "+"
+ }
